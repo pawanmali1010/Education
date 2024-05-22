@@ -1,0 +1,132 @@
+* {
+  background-color: #fff;
+  /* Universal Selector */
+}
+.block {
+  background-color: lightcoral;
+}
+.inline {
+  display: inline-block;
+  background-color: lightgreen;
+}
+.span {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
+  /* class example */
+}
+#green {
+  background-color: green;
+  /* id example */
+}
+div > p {
+  color: red;
+  /* child selector */
+}
+div p {
+  color: rgb(206, 24, 176);
+  /* Descendant Selector */
+  /* blue nantr lagla aahe notice this */
+  /* Using a:link.active/hover we use pseudo selector */
+}
+.box1 {
+  background-color: aqua;
+  padding: 30px;
+  margin: 5px;
+  border: 15px solid black;
+}
+.box2 {
+  background-color: tomato;
+}
+/* margin collapse consider big pixel only */
+.font {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-style: italic; */
+  font-weight: 900;
+  text-decoration: underline;
+  /* Line Height Also */
+  /* text-transform: uppercase; */
+  /* text-transform: capitalize; */
+}
+.borderred {
+  border: 5px solid red;
+  width: 40px;
+  text-overflow: clip;
+  overflow: hidden;
+  /* text-align: center; */
+}
+.size1 {
+  box-sizing: border-box;
+  /* Take full visible screen */
+  border: 5px solid greenyellow;
+  background-color: aqua;
+  width: 98vw;
+  /* vw stands for viewPort shows full width screen take 98vw because of 2px chrome auto margin default rule*/
+  /* vh stands for height */
+  /* vmax is used in mobile it constant width */
+}
+.flexbox1 {
+  border: 2px solid red;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+.flexbox2 {
+  border: 2px solid red;
+  width: 10vw;
+  display: inline-flex;
+  justify-content: center;
+}
+.flexbox3 {
+  border: 2px solid red;
+  width: 10vw;
+  display: inline-flex;
+  justify-content: center;
+}
+.boxshadows {
+  margin: 0px;
+  border: 2px solid black;
+  padding: 11px;
+  width: 80vw;
+  box-shadow: v-offset h-offset blur spread color inset;
+  box-shadow: 0px 5px 8px red;
+}
+.Pos {
+  margin: 3;
+  padding: 3;
+  border: 2px solid black;
+  width: 80vw;
+  height: 80px;
+}
+.tox1 {
+  background-color: aqua;
+  /* position: fixed; */
+  /* Its set the box fixed on screen */
+}
+
+.tox2 {
+  background-color: tomato;
+  position: relative;
+  bottom: 34px;
+  left: 56px;
+}
+/* absolute position consider parent position */
+
+.tox3 {
+  background-color: powderblue;
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  height: 111px;
+  width: 100%;
+}
+
+.tox4 {
+  background-color: palevioletred;
+}
+@media screen {
+    /* max-width: 455px;
+    background-color: blue; */
+}
